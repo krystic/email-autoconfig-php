@@ -14,7 +14,7 @@ header('Content-Type: application/xml');
       <Action>settings</Action>
       <Protocol>
         <Type>IMAP</Type>
-        <Server>em.sk.art</Server>
+        <Server>em.snk.art</Server>
         <Port>993</Port>
         <DomainRequired>off</DomainRequired>
         <SPA>off</SPA>

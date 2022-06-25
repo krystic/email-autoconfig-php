@@ -1,4 +1,4 @@
 RewriteEngine On
     RewriteRule config-v1\.1\.xml config-v1.1.php [NC,L]
     RewriteRule autodiscover\.xml autodiscover.php [NC,L]
-    RewriteRule mobileconfig\.php mobileconfig.php [NC,L]
+    RewriteRule email\.mobileconfig mobileconfig.php [NC,L]
