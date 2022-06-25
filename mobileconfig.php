@@ -10,7 +10,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 	<array>
 		<dict>
 			<key>EmailAccountDescription</key>
-			<string><?php echo $email ?> - CDMON</string>
+			<string><?php echo $email ?> - SNK.art</string>
 			<key>EmailAccountName</key>
 			<string><?php echo $email ?></string>
 			<key>EmailAccountType</key>
@@ -20,7 +20,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 			<key>IncomingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>IncomingMailServerHostName</key>
-			<string>imap.example.org</string>
+			<string>em.snk.art</string>
 			<key>IncomingMailServerPortNumber</key>
 			<integer>993</integer>
 			<key>IncomingMailServerUseSSL</key>
@@ -30,7 +30,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 			<key>OutgoingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>OutgoingMailServerHostName</key>
-			<string>smtp.example.org</string>
+			<string>em.snk.art</string>
 			<key>OutgoingMailServerPortNumber</key>
 			<integer>587</integer>
 			<key>OutgoingMailServerUseSSL</key>
@@ -40,11 +40,11 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 			<key>OutgoingPasswordSameAsIncomingPassword</key>
 			<true/>
 			<key>PayloadDescription</key>
-			<string>Email autoconfiguration profile</string>
+			<string>Email Autoconfiguration Profile</string>
 			<key>PayloadDisplayName</key>
 			<string><?php echo $email ?> - Email</string>
 			<key>PayloadIdentifier</key>
-			<string>org.example.autoconfig</string>
+			<string>art.snk.autoconfig</string>
 			<key>PayloadType</key>
 			<string>com.apple.mail.managed</string>
 			<key>PayloadUUID</key>
@@ -60,13 +60,13 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-        <string>Sample email autoconfiguration</string>
+        <string>SNK.art Email Autoconfiguration</string>
         <key>PayloadDisplayName</key>
         <string><?php echo $email ?> - Email</string>
         <key>PayloadIdentifier</key>
-        <string>org.example.autoconfig</string>
+        <string>art.snk.autoconfig</string>
 	<key>PayloadOrganization</key>
-	<string>Example organization</string>
+	<string>SNK.art</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
