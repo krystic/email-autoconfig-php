@@ -28,7 +28,8 @@ header('Content-Type: application/xml');
         <Port>587</Port>
         <DomainRequired>off</DomainRequired>
         <SPA>off</SPA>
-        <Encryption>STARTTLS</Encryption>
+        <SSL>on</SSL>
+        <Encryption>TLS</Encryption>
         <AuthRequired>on</AuthRequired>
         <UsePOPAuth>on</UsePOPAuth>
         <LoginName><?php echo $matches[1]; ?></LoginName>
